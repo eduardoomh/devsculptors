@@ -17,7 +17,22 @@
 
 }
 
+.emoji_container{
+    display: flex;
+    gap: 1rem;
+}
+
 .second_paragraph{
     text-align: center;
     font-size: 1rem;
 }
+
+@media (max-width: 600px) {
+    .paragraph{
+       font-size: 1rem;
+    }
+
+    .second_paragraph{
+        font-size: 1rem;
+    }
+  }
