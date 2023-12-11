@@ -1,0 +1,23 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.paragraph{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.img_container{
+    margin: 1rem;
+
+}
+
+.second_paragraph{
+    text-align: center;
+    font-size: 1rem;
+}
